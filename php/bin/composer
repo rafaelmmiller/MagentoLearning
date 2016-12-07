@@ -1,0 +1,4 @@
+#!/bin/sh
+. /Users/rafael/Documents/MagentoLearning/php/../scripts/setenv.sh
+
+exec /Users/rafael/Documents/MagentoLearning/php/bin/composer.phar "$@"

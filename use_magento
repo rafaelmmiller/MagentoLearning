@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/Users/rafael/Documents/MagentoLearning/varnish/bin:/Users/rafael/Documents/MagentoLearning/sqlite/bin:/Users/rafael/Documents/MagentoLearning/php/bin:/Users/rafael/Documents/MagentoLearning/mysql/bin:/Users/rafael/Documents/MagentoLearning/apache2/bin:/Users/rafael/Documents/MagentoLearning/common/bin:$PATH"
+BITNAMI_ROOT="/Users/rafael/Documents/MagentoLearning"
+export BITNAMI_ROOT
+
+exec /bin/bash --noprofile --norc
+                    

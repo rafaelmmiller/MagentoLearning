@@ -1,0 +1,19 @@
+[Tue Dec 06 18:51:37.096268 2016] [ssl:warn] [pid 31958] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 06 18:51:37.191109 2016] [ssl:warn] [pid 31959] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 06 18:51:37.191496 2016] [lbmethod_heartbeat:notice] [pid 31959] AH02282: No slotmem from mod_heartmonitor
+[Tue Dec 06 18:51:37.194896 2016] [mpm_prefork:notice] [pid 31959] AH00163: Apache/2.4.12 (Unix) PHP/5.4.40 OpenSSL/1.0.1m configured -- resuming normal operations
+[Tue Dec 06 18:51:37.194975 2016] [core:notice] [pid 31959] AH00094: Command line: '/Users/rafael/Documents/MagentoLearning/apache2/bin/httpd -f /Users/rafael/Documents/MagentoLearning/apache2/conf/httpd.conf'
+[Tue Dec 06 18:51:40.222010 2016] [mpm_prefork:notice] [pid 31959] AH00169: caught SIGTERM, shutting down
+[Tue Dec 06 18:51:44.347483 2016] [ssl:warn] [pid 31988] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 06 18:51:44.398856 2016] [ssl:warn] [pid 31989] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 06 18:51:44.399125 2016] [lbmethod_heartbeat:notice] [pid 31989] AH02282: No slotmem from mod_heartmonitor
+[Tue Dec 06 18:51:44.401155 2016] [mpm_prefork:notice] [pid 31989] AH00163: Apache/2.4.12 (Unix) PHP/5.4.40 OpenSSL/1.0.1m configured -- resuming normal operations
+[Tue Dec 06 18:51:44.401226 2016] [core:notice] [pid 31989] AH00094: Command line: '/Users/rafael/Documents/MagentoLearning/apache2/bin/httpd -f /Users/rafael/Documents/MagentoLearning/apache2/conf/httpd.conf'
+[Tue Dec 06 18:51:47.090216 2016] [mpm_prefork:notice] [pid 31989] AH00169: caught SIGTERM, shutting down
+[Tue Dec 06 18:51:51.287274 2016] [ssl:warn] [pid 32010] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 06 18:51:51.379113 2016] [ssl:warn] [pid 32011] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Dec 06 18:51:51.379342 2016] [lbmethod_heartbeat:notice] [pid 32011] AH02282: No slotmem from mod_heartmonitor
+[Tue Dec 06 18:51:51.382409 2016] [mpm_prefork:notice] [pid 32011] AH00163: Apache/2.4.12 (Unix) PHP/5.4.40 OpenSSL/1.0.1m configured -- resuming normal operations
+[Tue Dec 06 18:51:51.382484 2016] [core:notice] [pid 32011] AH00094: Command line: '/Users/rafael/Documents/MagentoLearning/apache2/bin/httpd -f /Users/rafael/Documents/MagentoLearning/apache2/conf/httpd.conf'
+[Tue Dec 06 19:42:00.610711 2016] [access_compat:error] [pid 32978] [client 192.168.1.31:63345] AH01797: client denied by server configuration: /Users/rafael/Documents/MagentoLearning/apps/magento/htdocs/app/etc/local.xml
+[Tue Dec 06 22:59:09.279521 2016] [mpm_prefork:notice] [pid 32011] AH00169: caught SIGTERM, shutting down

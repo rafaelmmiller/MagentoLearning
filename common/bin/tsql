@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Users/rafael/Documents/MagentoLearning/scripts/setenv.sh
+
+exec /Users/rafael/Documents/MagentoLearning/common/bin/.tsql.bin  "$@"

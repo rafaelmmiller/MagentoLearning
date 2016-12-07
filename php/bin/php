@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/Users/rafael/Documents/MagentoLearning/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/Users/rafael/Documents/MagentoLearning/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /Users/rafael/Documents/MagentoLearning/php/../scripts/setenv.sh
+exec /Users/rafael/Documents/MagentoLearning/php/bin/php.bin "$@"

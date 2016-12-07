@@ -1,0 +1,3 @@
+#!/bin/sh
+. /Users/rafael/Documents/MagentoLearning/apache2/bin/envvars
+exec /Users/rafael/Documents/MagentoLearning/apache2/bin/ab.bin "$@"

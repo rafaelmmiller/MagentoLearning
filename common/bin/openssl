@@ -1,0 +1,10 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/Users/rafael/Documents/MagentoLearning/common/lib:$LD_LIBRARY_PATH"	   
+DYLD_LIBRARY_PATH="/Users/rafael/Documents/MagentoLearning/common/lib:$DYLD_LIBRARY_PATH"	   
+OPENSSL_CONF="/Users/rafael/Documents/MagentoLearning/common/openssl/openssl.cnf"
+OPENSSL_ENGINES="/Users/rafael/Documents/MagentoLearning/common/lib/engines"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export OPENSSL_CONF
+export OPENSSL_ENGINES
+exec /Users/rafael/Documents/MagentoLearning/common/bin/openssl.bin "$@"

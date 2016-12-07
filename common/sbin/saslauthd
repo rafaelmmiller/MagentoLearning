@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Users/rafael/Documents/MagentoLearning/scripts/setenv.sh
+SASL_PATH="/Users/rafael/Documents/MagentoLearning/common/lib/sasl2"
+            export SASL_PATH
+exec /Users/rafael/Documents/MagentoLearning/common/sbin/.saslauthd.bin -f "/Users/rafael/Documents/MagentoLearning/common/etc/sasldb2" "$@"
