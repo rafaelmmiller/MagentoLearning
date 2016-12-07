@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <default>
+    <reference name="footer">
+      <block name="ola" type="core/text" before="-">
+        <action method="setText">
+          <texto>Ola Mundo</texto>
+        </action>
+      </block>
+    </reference>
+  </default>
+</layout>
